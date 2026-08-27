@@ -16,6 +16,12 @@ Repositorio oficial para las prácticas del semestre de Inteligencia Artificial.
     - Implementación de un sistema de pesos enteros (1 a 3) en las reglas personalizadas (`CUSTOM_RULES`) para mitigar ambigüedades en problemas complejos.
     - Generación automática del informe técnico de auditoría en `reports/semana03.md`.
 
+### Semana 04: Marco Tecnológico de la Inteligencia Artificial
+- **Propósito:** Implementación de algoritmos de búsqueda informada ($A^*$) y toma de decisiones en entornos adversariales (Minimax optimizado con Poda Alfa-Beta).
+- **Implementación:** 
+  - `src/semana04_astar.py`: Planificación de rutas óptimas mediante heurística de distancia Manhattan y renderizado gráfico de la cuadrícula.
+  - `src/semana04_minimax.py`: Selección de jugadas racionales en un entorno de juego adversarial aplicando acotamiento mediante poda alfa-beta.
+- **Evidencia y Resultados:** Documentación detallada de estados, acciones, costos y análisis de ingeniería en `reports/semana04.md`.
 ---
 
 
