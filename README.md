@@ -23,7 +23,12 @@ Repositorio oficial para las prácticas del semestre de Inteligencia Artificial.
   - `src/semana04_minimax.py`: Selección de jugadas racionales en un entorno de juego adversarial aplicando acotamiento mediante poda alfa-beta.
 - **Evidencia y Resultados:** Documentación detallada de estados, acciones, costos y análisis de ingeniería en `reports/semana04.md`.
 ---
-
+### Semana 05: Marco Tecnológico de la Inteligencia Artificial (Sistema Híbrido)
+- **Propósito:** Construcción de un sistema híbrido trazable que combina reglas expertas deterministas (Regex), recuperación de información documental (TF-IDF y similitud coseno) y clasificación supervisada de texto (Regresión Logística).
+- **Implementación:** 
+  - `src/semana05_sistema_hibrido.py`: Script optimizado que integra reglas expertas basadas en expresiones regulares, un umbral de confianza y rechazo dinámico para entradas ambiguas, y evaluación cuantitativa de métricas de rendimiento.
+- **Evidencia y Resultados:** Reporte técnico detallado con trazabilidad de reglas disparadas, evidencias recuperadas, similitudes, clasificación y métricas globales (*accuracy* del 93%) en `reports/semana05.md`.
+---
 
 ## Arquitectura del Proyecto
 
