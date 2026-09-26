@@ -33,6 +33,12 @@ Repositorio oficial para las prácticas del semestre de Inteligencia Artificial.
 - **Implementación:** 
   - `src/semana07_representaciones.py`: Script modular que ejecuta la representación numérica (cálculo de distancias euclidianas y vectores de características de servidores), la representación simbólica (evaluación de conjuntos de hechos mediante reglas lógicas `SI-ENTONCES`) y un autómata finito determinista para el reconocimiento de secuencias de eventos de red.
 - **Evidencia y Resultados:** Generación del informe técnico comparativo en `reports/semana07.md` detallando las ventajas, limitaciones y la pérdida de información inherente a cada enfoque representacional.
+### Semana 08: Sistema Inteligente de Reconocimiento Integrado
+- **Propósito:** Integrar un flujo completo de inteligencia artificial que combina una red neuronal artificial (MLP) para reconocimiento de patrones, persistencia de evidencias en base de datos relacional (SQLite) y representación formal del conocimiento mediante una ontología en grafos (GraphML).
+- **Implementación:** 
+  - `src/semana08_red_ontologia.py`: Script que entrena el clasificador neuronal, valida su exactitud, almacena metadatos de auditoría en SQLite y vincula dinámicamente las predicciones con conceptos ontológicos.
+- **Evidencia y Resultados:** Generación exitosa de artefactos serializados (`modelo_mlp.pkl`, `imagenes.db`, `ontologia.graphml`) en la carpeta `artifacts/` y del informe técnico completo en `reports/semana08.md`.
+---
 ---
 ---
 
