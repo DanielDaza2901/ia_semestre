@@ -77,17 +77,21 @@ python -m pip install -r requirements.txt
 ## Estructura del Proyecto
 Plaintext
 ## Estructura del Repositorio
+ia_semestre/
+├── .venv/            # Entorno virtual
+├── artifacts/        # Modelos serializados (.pkl, .joblib)
+├── data/             # Datasets (CSV, JSON, etc.)
+├── notebooks/        # Experimentación interactiva (Jupyter)
+├── reports/          # Informes técnicos (.md, .pdf)
+├── src/              # Código fuente (scripts de entrenamiento)
+│   └── semana02/     # Actividades semanales
+├── tests/            # Pruebas unitarias
+├── requirements.txt  # Dependencias del proyecto
+└── README.md         # Documentación principal
 
-* `src/`: Contiene los códigos fuente en Python (ej. modelos de clasificación).
-* `data/`: Directorio destinado a los conjuntos de datos de las prácticas.
-* `notebooks/`: Cuadernos interactivos de Jupyter para experimentación y análisis exploratorio.
-* `artifacts/`: Archivos generados, modelos entrenados o serializados.
-* `reports/`: Informes técnicos y documentación de los resultados.
-* `tests/`: Pruebas unitarias y de integración del código.
+---
 
-## 🛠️ Requisitos e Instalación
+Autor
+- Estudiante: Daniel Eduardo Daza Cuello
+- Institución: ETITC - 10º Semestre
 
-1. Clona el repositorio e ingresa a la carpeta del proyecto.
-2. Activa el entorno virtual:
-   ```bash
-   .venv\Scripts\Activate.ps1

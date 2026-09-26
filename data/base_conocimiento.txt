@@ -1,0 +1,8 @@
+Un equipo caliente o con temperatura alta requiere revisar la ventilación y el disipador.
+Una falla de red o error de DNS en internet requiere revisar la conectividad y el enlace principal.
+Una aplicación lenta requiere revisar el uso de CPU, memoria RAM y disco.
+Una cuenta bloqueada o problemas de inicio de sesión requieren revisar permisos de usuario.
+Un error de impresora o atasco de papel requiere verificar bandejas y reiniciar servicios.
+Una pantalla azul de Windows (BSOD) indica conflictos de controladores o fallas de hardware.
+Un certificado SSL expirado genera errores de seguridad en el navegador y requiere renovación.
+Un espacio en disco insuficiente afecta el rendimiento y requiere limpieza de temporales.
