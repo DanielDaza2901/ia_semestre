@@ -28,6 +28,12 @@ Repositorio oficial para las prácticas del semestre de Inteligencia Artificial.
 - **Implementación:** 
   - `src/semana05_sistema_hibrido.py`: Script optimizado que integra reglas expertas basadas en expresiones regulares, un umbral de confianza y rechazo dinámico para entradas ambiguas, y evaluación cuantitativa de métricas de rendimiento.
 - **Evidencia y Resultados:** Reporte técnico detallado con trazabilidad de reglas disparadas, evidencias recuperadas, similitudes, clasificación y métricas globales (*accuracy* del 93%) en `reports/semana05.md`.
+### Semana 07: Representaciones del Reconocimiento
+- **Propósito:** Aplicar e integrar tres formas fundamentales de representación del conocimiento sobre un mismo fenómeno técnico: métodos numéricos, métodos simbólicos y reconocimiento mediante autómatas finitos.
+- **Implementación:** 
+  - `src/semana07_representaciones.py`: Script modular que ejecuta la representación numérica (cálculo de distancias euclidianas y vectores de características de servidores), la representación simbólica (evaluación de conjuntos de hechos mediante reglas lógicas `SI-ENTONCES`) y un autómata finito determinista para el reconocimiento de secuencias de eventos de red.
+- **Evidencia y Resultados:** Generación del informe técnico comparativo en `reports/semana07.md` detallando las ventajas, limitaciones y la pérdida de información inherente a cada enfoque representacional.
+---
 ---
 
 ## Arquitectura del Proyecto
