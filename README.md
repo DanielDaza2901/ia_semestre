@@ -38,8 +38,12 @@ Repositorio oficial para las prácticas del semestre de Inteligencia Artificial.
 - **Implementación:** 
   - `src/semana08_red_ontologia.py`: Script que entrena el clasificador neuronal, valida su exactitud, almacena metadatos de auditoría en SQLite y vincula dinámicamente las predicciones con conceptos ontológicos.
 - **Evidencia y Resultados:** Generación exitosa de artefactos serializados (`modelo_mlp.pkl`, `imagenes.db`, `ontologia.graphml`) en la carpeta `artifacts/` y del informe técnico completo en `reports/semana08.md`.
----
----
+### Semana 09: Reconocimiento de Imágenes y Visión Artificial
+- **Propósito:** Aplicar técnicas de procesamiento digital de imágenes para extraer características, detectar contornos mediante Canny (`sigma=2.0`), segmentar regiones con umbrales automáticos de Otsu e identificar componentes conexos en elementos del proyecto.
+- **Implementación:** 
+  - `src/semana09_vision.py`: Script automatizado para el procesamiento por etapas de imágenes de infraestructura tecnológica.
+- **Evidencia y Resultados:** Generación de la evidencia visual comparativa en `artifacts/semana09_vision.png` (11 regiones conectadas detectadas) y documentación analítica en `reports/semana09.md`.
+
 ---
 
 ## Arquitectura del Proyecto
