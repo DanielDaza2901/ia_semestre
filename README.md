@@ -43,6 +43,11 @@ Repositorio oficial para las prácticas del semestre de Inteligencia Artificial.
 - **Implementación:** 
   - `src/semana09_vision.py`: Script automatizado para el procesamiento por etapas de imágenes de infraestructura tecnológica.
 - **Evidencia y Resultados:** Generación de la evidencia visual comparativa en `artifacts/semana09_vision.png` (11 regiones conectadas detectadas) y documentación analítica en `reports/semana09.md`.
+### Semana 10: Reconocimiento de Imágenes, Histogramas y Texturas LBP
+- **Propósito:** Aplicar técnicas de procesamiento digital de imágenes para segmentar objetos mediante umbrales automáticos de Otsu, etiquetar y medir regiones conectadas (`regionprops`) y extraer descriptores de textura utilizando Local Binary Patterns (LBP).
+- **Implementación:** 
+  - `src/semana10_texturas.py`: Script modular que procesa dos imágenes del proyecto, calcula estadísticas geométricas de regiones, genera histogramas de intensidad y texturas, y consolida un vector de 53 características.
+- **Evidencia y Resultados:** Generación del vector serializado en `artifacts/semana10_features.npy`, la gráfica comparativa de histogramas en `artifacts/semana10_histograma.png` y el informe técnico completo en `reports/semana10.md`.
 
 ---
 
