@@ -48,7 +48,12 @@ Repositorio oficial para las prácticas del semestre de Inteligencia Artificial.
 - **Implementación:** 
   - `src/semana10_texturas.py`: Script modular que procesa dos imágenes del proyecto, calcula estadísticas geométricas de regiones, genera histogramas de intensidad y texturas, y consolida un vector de 53 características.
 - **Evidencia y Resultados:** Generación del vector serializado en `artifacts/semana10_features.npy`, la gráfica comparativa de histogramas en `artifacts/semana10_histograma.png` y el informe técnico completo en `reports/semana10.md`.
-
+### Semana 11: Benchmark de Modelos y Decisión Técnica (ADR)
+- **Propósito:** Comparar de forma cuantitativa tres alternativas de Machine Learning (`Logistic Regression`, `Random Forest` y `MLPClassifier`) bajo un protocolo controlado para justificar objetivamente la elección técnica del proyecto.
+- **Implementación:** 
+  - `src/semana11_benchmark.py`: Script de pruebas comparativas que mide tiempos de ejecución y exactitud.
+- **Evidencia y Resultados:** Generación del archivo métrico en `artifacts/benchmark.csv` y formalización de la decisión en el informe de arquitectura `reports/semana11_adr.md`.
+---
 ---
 
 ## Arquitectura del Proyecto
