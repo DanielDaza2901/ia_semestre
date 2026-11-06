@@ -53,6 +53,12 @@ Repositorio oficial para las prácticas del semestre de Inteligencia Artificial.
 - **Implementación:** 
   - `src/semana11_benchmark.py`: Script de pruebas comparativas que mide tiempos de ejecución y exactitud.
 - **Evidencia y Resultados:** Generación del archivo métrico en `artifacts/benchmark.csv` y formalización de la decisión en el informe de arquitectura `reports/semana11_adr.md`.
+### Semana 13: Ingeniería del Conocimiento – Sistemas Lógicos y Motor de Inferencia
+- **Propósito:** Desarrollar un motor lógico basado en reglas con encadenamiento hacia adelante, trazabilidad de ejecución y validación mediante pruebas unitarias para el proyecto individual.
+- **Implementación:** 
+  - `src/semana13_motor_inferencia.py`: Estructura de reglas y motor de inferencia con prevención de duplicados y ciclos.
+  - `tests/test_motor_inferencia.py`: Pruebas funcionales automatizadas con `unittest`.
+- **Evidencia y Resultados:** Generación del informe técnico en `reports/reporte_semana13.md` y ejecución exitosa de los escenarios de prueba.
 ---
 ---
 
