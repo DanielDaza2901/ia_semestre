@@ -59,6 +59,13 @@ Repositorio oficial para las prácticas del semestre de Inteligencia Artificial.
   - `src/semana13_motor_inferencia.py`: Estructura de reglas y motor de inferencia con prevención de duplicados y ciclos.
   - `tests/test_motor_inferencia.py`: Pruebas funcionales automatizadas con `unittest`.
 - **Evidencia y Resultados:** Generación del informe técnico en `reports/reporte_semana13.md` y ejecución exitosa de los escenarios de prueba.
+### Semana 14: Ingeniería del Conocimiento – Redes Semánticas
+- **Propósito:** Implementar una red semántica aplicada al dominio de infraestructura TI, capaz de interpretar oraciones simples mediante un analizador sintáctico, almacenar triples y calcular inferencias por transitividad y herencia de propiedades.
+- **Implementación:** 
+  - `src/red_semantica.py`: Módulo con normalización Unicode, parser de oraciones, estructura de grafo y algoritmos de recorrido con control de ciclos (`visitados`).
+  - `src/main.py`: Script de demostración con casos de uso del dominio.
+  - `tests/test_red_semantica.py`: Pruebas funcionales con `unittest`.
+- **Evidencia y Resultados:** Ejecución exitosa de relaciones explícitas, deducciones por jerarquía y validación de excepciones.
 ---
 ---
 
